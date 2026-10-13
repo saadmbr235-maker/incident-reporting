@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>إجراءات الإبلاغ عن الحوادث — إدارة الأمن الصناعي | شركة المياه الوطنية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500;700;800&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1f2f63;--navy-2:#223a74;--deep:#16244f;--teal:#2f8f83;--teal-l:#e5f3f1;--gold:#f2b632;--red:#d93f34;--ink:#1b2330;--muted:#5d6879;--bg:#f2f5fa;--line:#e2e8f0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans Arabic",system-ui,sans-serif;line-height:1.85}
+body.lang-en{font-family:"Noto Sans",system-ui,sans-serif}
+.hd{font-family:"Noto Kufi Arabic","Noto Sans Arabic",sans-serif}
+body.lang-en .hd{font-family:"Noto Sans",sans-serif}
+.ltr{direction:ltr;unicode-bidi:isolate;font-family:"Noto Sans",sans-serif}
+
+/* HERO */
+.hero{position:relative;color:#fff;overflow:hidden;background:linear-gradient(110deg,#1b2a5c 0%,#27407a 40%,#2f8f83 100%);padding:40px 20px 60px}
+.hero .in{position:relative;max-width:980px;margin:0 auto;z-index:2}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.logo-box{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.12);backdrop-filter:blur(6px);padding:10px 16px;border-radius:14px}
+.logo-box .mark{width:42px;height:42px;background:#fff;border-radius:10px;display:grid;place-items:center;font-weight:800;color:var(--navy);font-size:18px}
+.logo-box span{font-weight:700;font-size:15px}
+.langs{display:flex;gap:8px}
+.langs button{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:10px;padding:6px 14px;font-weight:700;cursor:pointer;font-family:inherit}
+.langs button[aria-pressed="true"]{background:#fff;color:var(--navy)}
+.hero h1{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1.35;margin-bottom:10px}
+.hero .dept{opacity:.9;font-size:15.5px;margin-bottom:22px;font-weight:600}
+.cta{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:#1a1a1a;font-weight:800;text-decoration:none;padding:14px 28px;border-radius:14px;font-size:17px;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.cta:hover{transform:translateY(-1px)}
+
+/* CONTENT */
+.wrap{max-width:980px;margin:-40px auto 40px;padding:0 16px;position:relative;z-index:3}
+.intro{background:#fff;border-radius:20px;padding:22px 26px;margin-bottom:24px;border:1px solid var(--line);font-size:16.5px}
+.doc{background:#fff4d6;color:#8a5a00;font-weight:700;border-radius:6px;padding:0 7px;font-size:14.5px}
+
+.sec{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;margin-bottom:22px}
+.sec .sh{display:flex;align-items:center;gap:14px;padding:18px 24px;color:#fff}
+.sec.s .sh{background:linear-gradient(135deg,var(--teal),#23706a)}
+.sec.x .sh{background:linear-gradient(135deg,var(--navy-2),var(--deep))}
+.sec .sh .ic{flex:none;width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.18);display:grid;place-items:center;font-size:22px}
+.sec h2{font-size:20px;line-height:1.4;font-weight:800}
+.sec ol{list-style:none;counter-reset:n;padding:20px 24px 8px}
+.sec li{counter-increment:n;position:relative;padding-inline-start:54px;padding-bottom:20px;font-size:16.5px}
+.sec li::before{content:counter(n);position:absolute;inset-inline-start:0;top:0;width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-family:"Noto Sans",sans-serif;font-weight:800;font-size:17px;color:#fff}
+.sec.s li::before{background:var(--teal)}
+.sec.x li::before{background:var(--navy)}
+.sec li::after{content:"";position:absolute;inset-inline-start:18px;top:44px;bottom:6px;width:2px;background:var(--line)}
+.sec li:last-child::after{display:none}
+.hl{direction:ltr;unicode-bidi:isolate;display:inline-block;background:#fff4d6;color:#8a5a00;font-weight:700;border-radius:7px;padding:0 7px;font-family:"Noto Sans",sans-serif;font-size:14.5px;white-space:nowrap;text-decoration:none}
+a.hl{background:var(--teal-l);color:#1d6b62}
+
+.nums{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px 24px;margin-bottom:28px}
+.nums h3{font-size:20px;font-weight:800;color:var(--navy);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.nums h3::before{content:"";width:6px;height:24px;border-radius:3px;background:var(--red)}
+.ng{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.ng a{display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.ng span{font-size:14.5px;font-weight:600}
+.ng b{flex:none;font-family:"Noto Sans",sans-serif;font-size:20px;font-weight:800;color:var(--red)}
+
+footer{text-align:center;color:var(--muted);font-size:14px;padding:20px 16px 40px}
+
+@media (max-width:600px){
+  .hero{padding:28px 16px 50px}
+  .cta{width:100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="in">
+    <div class="topbar">
+      <div class="logo-box">
+        <div class="mark">NWC</div>
+        <span id="dept">وحدة أعمال الشمال · إدارة الأمن الصناعي</span>
+      </div>
+      <div class="langs">
+        <button data-l="ar" aria-pressed="true">العربية</button>
+        <button data-l="en" aria-pressed="false">English</button>
+      </div>
+    </div>
+    <h1 class="hd" id="title">إجراءات الإبلاغ عن الأحداث والحوادث وإصابات العمل</h1>
+    <p class="dept" id="intro-short">للإبلاغ عن أي حادث أو إصابة أو حالة أمنية — اتصل فوراً بمركز التحكم الأمني</p>
+    <a class="cta" id="cta" href="tel:0110000000">اتصل الآن</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="intro" id="intro">
+    وفقاً لإجراء الإبلاغ عن الأحداث والحوادث وإصابات العمل بشركة المياه الوطنية رقم الوثيقة <span class="doc">HSS_PP_009.02_00</span>، يجب على جميع العاملين من موظفين ومقاولين الإبلاغ فوراً عن جميع الأحداث والحوادث وإصابات العمل المتعلقة بالعمل.
+  </div>
+
+  <div class="sec s">
+    <div class="sh">
+      <div class="ic">🛡️</div>
+      <h2 id="h1">الحوادث وإصابات العمل المهنية</h2>
+    </div>
+    <ol id="l1"></ol>
+  </div>
+
+  <div class="sec x">
+    <div class="sh">
+      <div class="ic">🔒</div>
+      <h2 id="h2">الحوادث الأمنية</h2>
+    </div>
+    <ol id="l2"></ol>
+  </div>
+
+  <div class="nums">
+    <h3 id="nt">أرقام الطوارئ الموحدة</h3>
+    <div class="ng" id="ng"></div>
+  </div>
+</div>
+
+<footer id="foot">شركة المياه الوطنية — وحدة أعمال الشمال · إدارة الأمن الصناعي · 2026</footer>
+
+<script>
+const PHONE = "0138215775";          // رقم مركز التحكم الأمني
+const EXT   = "";                    // التحويلة (اتركه فاضي إذا ما فيه)
+const EMAIL = "ISOC.E@nwc.com.sa";   // البريد الإلكتروني
+
+const phoneDisplay = EXT ? PHONE + " – " + EXT : PHONE;
+const telLink = EXT ? PHONE + "," + EXT : PHONE;
+
+const T = {
+  ar: {
+    dir: "rtl",
+    dept: "وحدة أعمال الشمال · إدارة الأمن الصناعي",
+    title: "إجراءات الإبلاغ عن الأحداث والحوادث وإصابات العمل",
+    intro: `وفقاً لإجراء الإبلاغ عن الأحداث والحوادث وإصابات العمل بشركة المياه الوطنية رقم الوثيقة <span class="doc">HSS_PP_009.02_00</span>، يجب على جميع العاملين من موظفين ومقاولين الإبلاغ فوراً عن جميع الأحداث والحوادث وإصابات العمل المتعلقة بالعمل.`,
+    h1: "الحوادث وإصابات العمل المهنية",
+    h2: "الحوادث الأمنية",
+    l1: [
+      "على المصاب إبلاغ الرئيس المباشر فوراً عن أي حادث أو إصابة عمل تحدث له.",
+      `على الرئيس المباشر أو مدير الموقع / المشروع الإبلاغ فوراً عن أي حادث ينتج عنه إصابة عمل أو وفاة أو حريق أو تسرب مواد خطرة أو تلف بالمعدات أو الممتلكات أو تعطل الإنتاج أو ضرر بالبيئة، بالاتصال بمركز التحكم الأمني على الهاتف المباشر <a class="hl" href="tel:${telLink}">${phoneDisplay}</a>.`,
+      `تعبئة النموذج الموحد للبلاغات عن الحوادث والتسربات رقم <span class="hl">00_HSE_FM_010.01</span> مكتمل المعلومات، وإرساله إلى البريد الإلكتروني لمركز التحكم الأمني <a class="hl" href="mailto:${EMAIL}">${EMAIL}</a>.`,
+      "تسجيل إصابة العمل في نظام الخدمة الذاتية (ERP) للموظف المصاب مستوفية جميع المعلومات اللازمة، مع اعتماد الرئيس المباشر."
+    ],
+    l2: [
+      "يجب على جميع العاملين الإبلاغ عن جميع الحالات الأمنية إلى الرئيس المباشر.",
+      `يجب على الرئيس المباشر أو مدير الموقع / المشروع الإبلاغ فوراً عن جميع الحالات والحوادث الأمنية (حادث أمني أو تخريبي أو إرهابي يؤثر على الأصول) بالاتصال فوراً بمركز التحكم الأمني على الهاتف المباشر <a class="hl" href="tel:${telLink}">${phoneDisplay}</a>.`,
+      `تعبئة النموذج الموحد للبلاغات عن الحوادث والتسربات رقم <span class="hl">00_HSE_FM_010.01</span> مكتمل المعلومات، وإرساله إلى البريد الإلكتروني لمركز التحكم الأمني <a class="hl" href="mailto:${EMAIL}">${EMAIL}</a>.`
+    ],
+    foot: "شركة المياه الوطنية — إدارة الأمن الصناعي · 2026",
+    cta: "اتصل الآن",
+    nt: "أرقام الطوارئ الموحدة",
+    nums: ["الإسعاف (الهلال الأحمر)", "طوارئ الكهرباء", "طوارئ المياه", "أمانة المنطقة"]
+  },
+  en: {
+    dir: "ltr",
+    dept: "Northern Business Unit · Industrial Security Administration",
+    title: "Procedure for Reporting Incidents, Accidents and Work-Related Injuries",
+    intro: `In accordance with NWC's procedure for reporting incidents, accidents and work-related injuries, Document No. <span class="doc">HSS_PP_009.02_00</span>, all NWC employees and contractors must immediately report all work-related events, incidents and injuries.`,
+    h1: "Occupational Incidents and Work Injuries",
+    h2: "Security Incidents",
+    l1: [
+      "The injured person must immediately inform their direct supervisor of any incident or work injury.",
+      `The direct supervisor or site/project manager must immediately report any incident resulting in work injury, death, fire, hazardous material leak, damage to equipment/property, production stoppage or environmental harm by calling the Security Control Center on <a class="hl" href="tel:${telLink}">${phoneDisplay}</a>.`,
+      `Complete the unified incident and leak reporting form No. <span class="hl">00_HSE_FM_010.01</span> and send it to the Security Control Center email <a class="hl" href="mailto:${EMAIL}">${EMAIL}</a>.`,
+      "Register the work injury in the Self-Service System (ERP) for the injured employee with all required information and direct supervisor approval."
+    ],
+    l2: [
+      "All employees must report all security cases to their direct supervisor.",
+      `The direct supervisor or site/project manager must immediately report all security incidents (security, sabotage or terrorist incidents affecting assets) by calling the Security Control Center on <a class="hl" href="tel:${telLink}">${phoneDisplay}</a>.`,
+      `Complete the unified incident and leak reporting form No. <span class="hl">00_HSE_FM_010.01</span> and send it to the Security Control Center email <a class="hl" href="mailto:${EMAIL}">${EMAIL}</a>.`
+    ],
+    foot: "National Water Company — Industrial Security Administration · 2026",
+    cta: "Call Now",
+    nt: "Unified Emergency Numbers",
+    nums: ["Ambulance (Red Crescent)", "Electricity Emergency", "Water Emergency", "Municipality (Amanah)"]
+  }
+};
+
+const NV = ["997", "933", "939", "940"];
+
+function setLang(l) {
+  const t = T[l];
+  if (!t) return;
+  document.documentElement.lang = l;
+  document.documentElement.dir = t.dir;
+  document.body.dir = t.dir;
+  document.body.className = "lang-" + l;
+
+  document.getElementById("dept").textContent = t.dept;
+  document.getElementById("title").textContent = t.title;
+  document.getElementById("intro").innerHTML = t.intro;
+  document.getElementById("h1").textContent = t.h1;
+  document.getElementById("h2").textContent = t.h2;
+  document.getElementById("foot").textContent = t.foot;
+  document.getElementById("cta").textContent = t.cta;
+  document.getElementById("nt").textContent = t.nt;
+
+  document.getElementById("l1").innerHTML = t.l1.map(v => "<li>" + v + "</li>").join("");
+  document.getElementById("l2").innerHTML = t.l2.map(v => "<li>" + v + "</li>").join("");
+
+  document.getElementById("ng").innerHTML = t.nums.map((n, i) =>
+    `<a href="tel:${NV[i]}"><span>${n}</span><b>${NV[i]}</b></a>`
+  ).join("");
+
+  document.querySelectorAll(".langs button").forEach(b =>
+    b.setAttribute("aria-pressed", b.dataset.l === l)
+  );
+
+  // Update call button
+  document.getElementById("cta").href = "tel:" + telLink;
+
+  try { localStorage.setItem("nwc-lang", l); } catch(e) {}
+}
+
+document.querySelectorAll(".langs button").forEach(b =>
+  b.addEventListener("click", () => setLang(b.dataset.l))
+);
+
+let saved = "ar";
+try { saved = localStorage.getItem("nwc-lang") || "ar"; } catch(e) {}
+setLang(T[saved] ? saved : "ar");
+</script>
+</body>
+</html>
